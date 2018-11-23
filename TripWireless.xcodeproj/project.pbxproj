@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C075A2121A7D22000199747 /* StringExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C075A2021A7D22000199747 /* StringExtensionTests.swift */; };
+		5C08BFB621A5377F000AB2C3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C08BFB521A5377F000AB2C3 /* Localizable.strings */; };
+		5C08BFB821A5383C000AB2C3 /* LocalizationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C08BFB721A5383C000AB2C3 /* LocalizationExtension.swift */; };
 		5C7F10B521A2D5DE00354670 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7F10B421A2D5DE00354670 /* AppDelegate.swift */; };
 		5C7F10B721A2D5DE00354670 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7F10B621A2D5DE00354670 /* ViewController.swift */; };
 		5C7F10BA21A2D5DE00354670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C7F10B821A2D5DE00354670 /* Main.storyboard */; };
@@ -14,6 +17,17 @@
 		5C7F10BF21A2D5E000354670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C7F10BD21A2D5E000354670 /* LaunchScreen.storyboard */; };
 		5C7F10CA21A2D5E000354670 /* TripWirelessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7F10C921A2D5E000354670 /* TripWirelessTests.swift */; };
 		5C7F10D521A2D5E000354670 /* TripWirelessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7F10D421A2D5E000354670 /* TripWirelessUITests.swift */; };
+		5C7F10E421A2D67900354670 /* AppHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7F10E321A2D67900354670 /* AppHelper.swift */; };
+		5C7F10E521A2D67900354670 /* AppHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7F10E321A2D67900354670 /* AppHelper.swift */; };
+		5C7F10EC21A2D80F00354670 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7F10EB21A2D80F00354670 /* Validator.swift */; };
+		5C7F10ED21A2D80F00354670 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7F10EB21A2D80F00354670 /* Validator.swift */; };
+		5C7F10F221A2D99000354670 /* UserFieldsValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7F10F121A2D99000354670 /* UserFieldsValidator.swift */; };
+		5C7F10F321A2D99000354670 /* UserFieldsValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7F10F121A2D99000354670 /* UserFieldsValidator.swift */; };
+		5C7F10F621A2DA7500354670 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7F10F521A2DA7500354670 /* StringExtensions.swift */; };
+		5C7F10F721A2DA7500354670 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7F10F521A2DA7500354670 /* StringExtensions.swift */; };
+		5C7F10FA21A2DBEA00354670 /* UserBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7F10F921A2DBEA00354670 /* UserBusiness.swift */; };
+		5C7F10FB21A2DBEA00354670 /* UserBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7F10F921A2DBEA00354670 /* UserBusiness.swift */; };
+		5C7F10FD21A2DD4200354670 /* UserProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7F10FC21A2DD4200354670 /* UserProfileTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C075A2021A7D22000199747 /* StringExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensionTests.swift; sourceTree = "<group>"; };
+		5C08BFB521A5377F000AB2C3 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		5C08BFB721A5383C000AB2C3 /* LocalizationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationExtension.swift; sourceTree = "<group>"; };
 		5C7F10B121A2D5DE00354670 /* TripWireless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripWireless.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C7F10B421A2D5DE00354670 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C7F10B621A2D5DE00354670 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +64,12 @@
 		5C7F10D021A2D5E000354670 /* TripWirelessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripWirelessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C7F10D421A2D5E000354670 /* TripWirelessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripWirelessUITests.swift; sourceTree = "<group>"; };
 		5C7F10D621A2D5E000354670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C7F10E321A2D67900354670 /* AppHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppHelper.swift; sourceTree = "<group>"; };
+		5C7F10EB21A2D80F00354670 /* Validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		5C7F10F121A2D99000354670 /* UserFieldsValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFieldsValidator.swift; sourceTree = "<group>"; };
+		5C7F10F521A2DA7500354670 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		5C7F10F921A2DBEA00354670 /* UserBusiness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBusiness.swift; sourceTree = "<group>"; };
+		5C7F10FC21A2DD4200354670 /* UserProfileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +120,16 @@
 		5C7F10B321A2D5DE00354670 /* TripWireless */ = {
 			isa = PBXGroup;
 			children = (
+				5C7F10E321A2D67900354670 /* AppHelper.swift */,
 				5C7F10B421A2D5DE00354670 /* AppDelegate.swift */,
-				5C7F10B621A2D5DE00354670 /* ViewController.swift */,
+				5C7F10EE21A2D86500354670 /* Controller */,
+				5C7F10F021A2D94F00354670 /* Business */,
+				5C7F10EA21A2D80000354670 /* Common */,
 				5C7F10B821A2D5DE00354670 /* Main.storyboard */,
 				5C7F10BB21A2D5E000354670 /* Assets.xcassets */,
 				5C7F10BD21A2D5E000354670 /* LaunchScreen.storyboard */,
 				5C7F10C021A2D5E000354670 /* Info.plist */,
+				5C08BFB521A5377F000AB2C3 /* Localizable.strings */,
 			);
 			path = TripWireless;
 			sourceTree = "<group>";
@@ -111,6 +138,8 @@
 			isa = PBXGroup;
 			children = (
 				5C7F10C921A2D5E000354670 /* TripWirelessTests.swift */,
+				5C7F10FC21A2DD4200354670 /* UserProfileTests.swift */,
+				5C075A2021A7D22000199747 /* StringExtensionTests.swift */,
 				5C7F10CB21A2D5E000354670 /* Info.plist */,
 			);
 			path = TripWirelessTests;
@@ -123,6 +152,49 @@
 				5C7F10D621A2D5E000354670 /* Info.plist */,
 			);
 			path = TripWirelessUITests;
+			sourceTree = "<group>";
+		};
+		5C7F10EA21A2D80000354670 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5C7F10F421A2DA4300354670 /* Extensions */,
+				5C7F10EB21A2D80F00354670 /* Validator.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5C7F10EE21A2D86500354670 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5C7F10B621A2D5DE00354670 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5C7F10F021A2D94F00354670 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				5C7F10F821A2DB9900354670 /* UserProfile */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		5C7F10F421A2DA4300354670 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5C7F10F521A2DA7500354670 /* StringExtensions.swift */,
+				5C08BFB721A5383C000AB2C3 /* LocalizationExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5C7F10F821A2DB9900354670 /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				5C7F10F921A2DBEA00354670 /* UserBusiness.swift */,
+				5C7F10F121A2D99000354670 /* UserFieldsValidator.swift */,
+			);
+			path = UserProfile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C7F10BF21A2D5E000354670 /* LaunchScreen.storyboard in Resources */,
+				5C08BFB621A5377F000AB2C3 /* Localizable.strings in Resources */,
 				5C7F10BC21A2D5E000354670 /* Assets.xcassets in Resources */,
 				5C7F10BA21A2D5DE00354670 /* Main.storyboard in Resources */,
 			);
@@ -256,8 +329,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C7F10F621A2DA7500354670 /* StringExtensions.swift in Sources */,
+				5C7F10EC21A2D80F00354670 /* Validator.swift in Sources */,
+				5C7F10FA21A2DBEA00354670 /* UserBusiness.swift in Sources */,
 				5C7F10B721A2D5DE00354670 /* ViewController.swift in Sources */,
+				5C08BFB821A5383C000AB2C3 /* LocalizationExtension.swift in Sources */,
+				5C7F10E421A2D67900354670 /* AppHelper.swift in Sources */,
 				5C7F10B521A2D5DE00354670 /* AppDelegate.swift in Sources */,
+				5C7F10F221A2D99000354670 /* UserFieldsValidator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +344,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C7F10F321A2D99000354670 /* UserFieldsValidator.swift in Sources */,
 				5C7F10CA21A2D5E000354670 /* TripWirelessTests.swift in Sources */,
+				5C7F10FB21A2DBEA00354670 /* UserBusiness.swift in Sources */,
+				5C7F10F721A2DA7500354670 /* StringExtensions.swift in Sources */,
+				5C075A2121A7D22000199747 /* StringExtensionTests.swift in Sources */,
+				5C7F10FD21A2DD4200354670 /* UserProfileTests.swift in Sources */,
+				5C7F10ED21A2D80F00354670 /* Validator.swift in Sources */,
+				5C7F10E521A2D67900354670 /* AppHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +521,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9P84J3MM66;
 				INFOPLIST_FILE = TripWireless/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +540,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9P84J3MM66;
 				INFOPLIST_FILE = TripWireless/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

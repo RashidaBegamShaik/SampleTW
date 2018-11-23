@@ -1,0 +1,33 @@
+/* 
+  Localizable.strings
+  TripWireless
+
+  Created by Rashida on 21/11/18.
+  Copyright © 2018 Rashida. All rights reserved.
+*/
+
+
+"email.empty.message" = "Empty Email";
+"email.validation.message" = "Invalid email";
+
+
+"password.empty.message" = "Empty password";
+"password.validation.message" = "Password must be minimum 6 characters";
+
+"oldPassword.empty.message" = "Empty Old password ";
+"oldPassword.validation.message" = "Old password must be minimum 6 characters";
+
+"newPassword.empty.message" = "Empty New password ";
+"newPassword.validation.message" = "New password must be minimum 6 characters";
+
+"firstName.empty.message" = "First name empty";
+"lastName.empty.message" = "Last name empty";
+"companyName.empty.message" = "Company name empty";
+
+
+"phoneNumber.empty.message" = "Empty phone number";
+"phoneNumber.validation.message" = "Invalid phone number";
+
+
+
+
